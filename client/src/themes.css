@@ -1,0 +1,119 @@
+.app.light-mode {
+  color-scheme: light;
+  color: #253444;
+  background-color: #e8edf0;
+  background-image: linear-gradient(#ccd7dc44 1px, transparent 1px), linear-gradient(90deg, #ccd7dc44 1px, transparent 1px);
+}
+
+.app.light-mode .sidebar { color: #304050; background: #f4f7f7; border-color: #d2dde0; }
+.app.light-mode .brand { color: #172b39; }
+.app.light-mode .brand-mark { color: #e8fffa; }
+.app.light-mode .primary-nav,
+.app.light-mode .history-section,
+.app.light-mode .sidebar-bottom { border-color: #dce4e6; }
+.app.light-mode .nav-item { color: #526473; }
+.app.light-mode .nav-item:hover { color: #1c3546; background: #e8eff1; }
+.app.light-mode .nav-item.active { color: #153b52; background: #dcebf1; border-color: #c4dce6; }
+.app.light-mode .nav-item.active .nav-icon { color: #1878a2; }
+.app.light-mode .section-label,
+.app.light-mode .eyebrow { color: #687d8c; }
+.app.light-mode .new-chat-btn { color: #26465b; background: #e9f1f3; border-color: #ccdcdf; }
+.app.light-mode .history-title { color: #5c6d79; }
+.app.light-mode .selected-chat .history-title { color: #1d3e52; }
+.app.light-mode .history-item:hover,
+.app.light-mode .selected-chat { background: #e8eff1; }
+.app.light-mode .theme-toggle { color: #526473; }
+.app.light-mode .profile-button { color: #253847; background: #edf2f3; border-color: #d6e0e2; }
+.app.light-mode .profile-copy small { color: #778894; }
+
+.app.light-mode .topbar,
+.app.light-mode .center-panel,
+.app.light-mode .rail-section { color: #263847; background-color: #f5f8f8; border-color: #d4dfe2; }
+.app.light-mode .breadcrumb { color: #283c4a; }
+.app.light-mode .topbar > div:first-child p,
+.app.light-mode .today-label { color: #6c7e89; }
+.app.light-mode .notification-btn { color: #475d6b; background: #eaf0f2; border-color: #d4e0e3; }
+.app.light-mode .notification-btn i { border-color: #eaf0f2; }
+.app.light-mode .chat-panel { background-image: radial-gradient(ellipse at 50% 34%, #cfe6e533, transparent 53%); }
+.app.light-mode .chat-welcome h1,
+.app.light-mode .page-content h1 { color: #263c4a; }
+.app.light-mode .welcome-description,
+.app.light-mode .page-intro,
+.app.light-mode .demo-note,
+.app.light-mode .empty-state { color: #6d7e89; }
+.app.light-mode .orbit-ring { border-color: #70aab277; }
+.app.light-mode .assistant-face { color: #eafffb; background: #24677a; border-color: #54a6b6; }
+.app.light-mode .orbit-dot { border-color: #f5f8f8; }
+.app.light-mode .suggestion-row button,
+.app.light-mode .quiet-button { color: #425969; background: #edf3f4; border-color: #d5e1e4; }
+.app.light-mode .suggestion-row button:hover,
+.app.light-mode .quiet-button:hover { color: #18384d; background: #e1edf0; }
+.app.light-mode .chat-message.ai-message { color: #354957; background: #edf3f4; border-color: #d4e0e2; }
+.app.light-mode .chat-message.ai-message strong { color: #247e78; }
+.app.light-mode .chat-message.user-message { color: #eff9ff; background: #2b6d91; border-color: #2b6d91; }
+.app.light-mode .message-avatar { color: #eafffa; background: #307f77; }
+.app.light-mode .chat-box { background: #f9fbfb; border-color: #cddde0; }
+.app.light-mode .chat-box input { color: #273d4b; }
+.app.light-mode .chat-box input::placeholder { color: #7f9099; }
+.app.light-mode .chat-box .voice-btn,
+.app.light-mode .chat-box .voice-language { color: #3e5968; background: #edf3f4; border-color: #d2e0e2; }
+.app.light-mode .chat-box .voice-btn.voice-active { color: #261a07; background: #f2bd62; border-color: #f2bd62; }
+.app.light-mode .chat-box .send-btn { color: #09202a; background: #61bec5; border-color: #61bec5; }
+.app.light-mode .rail-heading h2 { color: #2b414f; }
+.app.light-mode .integration-item { color: #566b78; }
+.app.light-mode .integration-mark { border-color: #d6e0e3; }
+.app.light-mode .integration-mark.slack { color: #9c3565; background: #faedf3; }
+.app.light-mode .integration-mark.whatsapp { color: #187b47; background: #e9f7ed; }
+.app.light-mode .integration-mark.gmail { color: #b44b38; background: #fbefeb; }
+.app.light-mode .integration-mark.notion { color: #263746; background: #e9eef0; }
+.app.light-mode .integration-mark.twitter { color: #24749a; background: #e9f5fa; }
+.app.light-mode .integration-mark.instagram { color: #a23962; background: #faedf2; }
+.app.light-mode .integration-mark.linkedin { color: #28648c; background: #e9f3f8; }
+.app.light-mode .task-row { color: #435967; border-color: #e0e7e8; }
+.app.light-mode .task-check { border-color: #83949e; }
+.app.light-mode .task-delete { color: #70828d; }
+.app.light-mode .task-delete:hover { color: #8f2927; background: #f6dedb; }
+.app.light-mode .task-done .task-title,
+.app.light-mode .task-time,
+.app.light-mode .period-label,
+.app.light-mode .count-label { color: #72828c; }
+.app.light-mode .progress-ring > div { background: #f5f8f8; }
+.app.light-mode .progress-ring strong,
+.app.light-mode .productivity-stats strong { color: #2e4654; }
+.app.light-mode .progress-ring small,
+.app.light-mode .productivity-stats span { color: #71828c; }
+
+.app.light-mode .metric-panel,
+.app.light-mode .full-task-list,
+.app.light-mode .calendar-date,
+.app.light-mode .note-editor,
+.app.light-mode .note-item,
+.app.light-mode .settings-list,
+.app.light-mode .page-content .integration-grid { color: #334a57; background: #edf3f4; border-color: #d5e0e2; }
+.app.light-mode .metric-panel span,
+.app.light-mode .metric-panel small { color: #6e7f89; }
+.app.light-mode .metric-panel strong { color: #28434f; }
+.app.light-mode .calendar-date strong { color: #21847e; }
+.app.light-mode .calendar-date span,
+.app.light-mode .schedule-item strong,
+.app.light-mode .note-item strong,
+.app.light-mode .setting-row strong { color: #354d5b; }
+.app.light-mode .schedule-item time,
+.app.light-mode .schedule-item small,
+.app.light-mode .note-item time,
+.app.light-mode .setting-row small { color: #778791; }
+.app.light-mode .schedule-item,
+.app.light-mode .setting-row { border-color: #dce5e7; }
+.app.light-mode .add-item-form { background: #f9fbfb; border-color: #d3e0e2; }
+.app.light-mode .add-item-form .deadline-field { color: #71828c; }
+.app.light-mode .add-item-form .deadline-field input { color: #344e5c; }
+.app.light-mode .task-notice { color: #77561e; background: #fff6df; border-color: #e6d09d; }
+.app.light-mode .task-notice.reminder-notice { color: #145d51; background: #e3f5ef; border-color: #a5d7c6; }
+.app.light-mode .task-page-notice { color: #77561e; }
+.app.light-mode .add-item-form input,
+.app.light-mode .note-editor input,
+.app.light-mode .note-editor textarea { color: #2c4351; background: #f8fbfb; border-color: #d5e0e2; }
+.app.light-mode .note-item p { color: #5c707c; }
+.app.light-mode .page-content .integration-item { background: #f7fafa; border-color: #d7e2e4; }
+.app.light-mode .setting-row .voice-language { color: #354c59; background: #f8fbfb; border-color: #d1dfe2; }
+.app.light-mode .voice-status { color: #247e78; }
